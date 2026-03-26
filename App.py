@@ -23,7 +23,7 @@ similarity = pickle.load(open("similarity.pkl",'rb'))
 movies_list = movies['title'].values
 
 # Streamlit UI
-st.header("🎬 Movie Recommender System")
+st.header("🎬 Movie Recommendation Engine")
 selectvalue = st.selectbox("Select movie from dropdown", movies_list)
 
 # Fallback poster if no image found
