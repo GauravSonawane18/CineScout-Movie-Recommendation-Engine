@@ -1,15 +1,15 @@
 import streamlit as st
 import requests
-from dotenv import load_dotenv
-import os
+# from dotenv import load_dotenv
+# import os
 
 # =========================================================
 # API KEY
 # =========================================================
 
-load_dotenv()
+# load_dotenv()
 
-API_KEY = os.getenv("TMDB_API_KEY")
+API_KEY = st.secrets("TMDB_API_KEY")
 
 FALLBACK_POSTER = "https://via.placeholder.com/500x750.png?text=No+Image"
 
