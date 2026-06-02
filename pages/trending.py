@@ -9,7 +9,7 @@ import requests
 
 # load_dotenv()
 
-API_KEY = st.secrets("TMDB_API_KEY")
+API_KEY = st.secrets["TMDB_API_KEY"]
 
 FALLBACK_POSTER = "https://via.placeholder.com/500x750.png?text=No+Image"
 
