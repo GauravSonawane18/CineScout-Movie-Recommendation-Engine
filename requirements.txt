@@ -7,3 +7,4 @@ pickle
 joblib
 streamlit-option-menu
 python-dotenv
+os
