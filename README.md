@@ -327,5 +327,6 @@ Software Engineer | AI/ML Enthusiast | Full Stack Developer
 
 This project is for educational and portfolio purposes.
 
+---
 
 ⭐ If you liked this project, feel free to star the repository!
