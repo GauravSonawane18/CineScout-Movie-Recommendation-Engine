@@ -3,6 +3,5 @@ pandas
 numpy
 scikit-learn
 requests
-pickle
 joblib
 streamlit-option-menu
