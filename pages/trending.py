@@ -25,26 +25,19 @@ def fetch_trending_movies():
     )
 
     try:
-
         response = requests.get(url)
-
         data = response.json()
 
         # SAFE CHECK
         if 'results' in data:
-
             return data['results']
 
         else:
-
             st.error("TMDB API Error")
-
             return []
 
     except Exception as e:
-
         st.error(f"Error: {e}")
-
         return []
 
 # =========================================================
