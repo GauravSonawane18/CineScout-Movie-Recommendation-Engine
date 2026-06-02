@@ -39,7 +39,6 @@ movies_list = movies['title'].values
 def add_bg_from_local(image_file):
 
     with open(image_file, "rb") as image:
-
         encoded_string = base64.b64encode(image.read()).decode()
 
     st.markdown(
@@ -284,11 +283,9 @@ def recommend(movie):
     )[1:11]
 
     recommended_movies = []
-
     recommended_posters = []
 
     for i in distances:
-
         movie_data = movies.iloc[i[0]]
 
         recommended_movies.append(
